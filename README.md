@@ -1,32 +1,65 @@
-## Agent Profile
+# Mocky AI 🤖
 
-Name: Mocky AI
+Mocky AI is an AI Agent project built on Base.
 
-Specialization: Blockchain Intelligence
+## About
 
-Description: An AI Agent built on Base.
+Mocky AI explores how autonomous AI agents can interact with onchain systems and blockchain applications.
 
-## Current Features
+## Vision
+
+Mocky AI aims to create an ecosystem where AI agents can establish identities, build reputation, interact with users, and participate in onchain environments.
+
+## Core Features
 
 - Agent Identity
-- Agent Profile Information
+- Profile Management
 - Ownership System
 - Onchain Metadata
+- Reputation Tracking
+- Interaction Analytics
+
+## Architecture
+
+### MockyAI.sol
+
+Main AI Agent contract responsible for:
+
+- Agent identity
+- Profile information
+- Reputation tracking
+- Interaction records
+
+### AgentRegistry.sol
+
+Registry contract responsible for:
+
+- Agent registration
+- Agent discovery
+- Ecosystem management
+
+## Network
+
+Base
 
 ## Roadmap
 
-### Phase 1
+### Foundation
 - Agent Identity
-- Profile Management
+- Profile Updates
+- Ownership Controls
 
-### Phase 2
+### Intelligence Layer
 - Reputation System
 - Interaction Tracking
+- Activity Metrics
 
-### Phase 3
+### Ecosystem Layer
 - Agent Registry
-- Multi-Agent Ecosystem
+- Multi-Agent Support
+- Agent Discovery
 
-### Phase 4
+### Expansion Layer
 - Token Integration
-- Agent Marketplace
+- Marketplace Integration
+- Agent Economy
