@@ -7,7 +7,10 @@ contract MockyAI {
     string public specialization;
     string public description;
 
-    address public owner;
+address public owner;
+
+uint256 public reputation;
+uint256 public totalInteractions;
 
     constructor() {
         agentName = "Mocky AI";
