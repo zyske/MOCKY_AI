@@ -3,38 +3,42 @@ pragma solidity ^0.8.0;
 
 contract MockyAI {
 
-    string public agentName;
-    string public specialization;
-    string public description;
+string public agentName;
+string public specialization;
+string public description;
 
 address public owner;
 
 uint256 public reputation;
 uint256 public totalInteractions;
 
-    constructor() {
-        agentName = "Mocky AI";
-        specialization = "Blockchain Intelligence";
-        description = "An AI Agent built on Base.";
+constructor() {
+    agentName = "Mocky AI";
+    specialization = "Blockchain Intelligence";
+    description = "An AI Agent built on Base";
 
-        owner = msg.sender;
-    }
+    owner = msg.sender;
 
-    function getAgentInfo()
-        public
-        view
-        returns (
-            string memory,
-            string memory,
-            string memory
-        )
-    {
-        return (
-            agentName,
-            specialization,
-            description
-        );
-    }
+    reputation = 0;
+    totalInteractions = 0;
+}
+
+function getAgentInfo()
+    public
+    view
+    returns (
+        string memory,
+        string memory,
+        string memory
+    )
+{
+    return (
+        agentName,
+        specialization,
+        description
+    );
+}
+
 function updateAgentProfile(
     string memory _name,
     string memory _specialization,
@@ -46,4 +50,13 @@ function updateAgentProfile(
     specialization = _specialization;
     description = _description;
 }
+
+function increaseReputation() public {
+    reputation++;
+}
+
+function recordInteraction() public {
+    totalInteractions++;
+}
+
 }
