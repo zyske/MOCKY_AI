@@ -1,24 +1,32 @@
-# MOCKY_AI
+## Agent Profile
 
-# Mocky AI 🤖
+Name: Mocky AI
 
-Mocky AI is an AI Agent project built on Base.
+Specialization: Blockchain Intelligence
 
-## About
+Description: An AI Agent built on Base.
 
-Mocky AI explores how autonomous AI agents can interact with onchain systems and blockchain applications.
+## Current Features
 
-## Goal
+- Agent Identity
+- Agent Profile Information
+- Ownership System
+- Onchain Metadata
 
-- Learn Solidity
-- Build AI Agent smart contracts
-- Deploy on Base
-- Explore agent-based infrastructure
+## Roadmap
 
-## Network
+### Phase 1
+- Agent Identity
+- Profile Management
 
-Base
+### Phase 2
+- Reputation System
+- Interaction Tracking
 
-## Progress
+### Phase 3
+- Agent Registry
+- Multi-Agent Ecosystem
 
-Day 1 - Repository Setup
+### Phase 4
+- Token Integration
+- Agent Marketplace
