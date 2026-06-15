@@ -7,9 +7,29 @@ contract MockyAI {
     string public specialization;
     string public description;
 
+    address public owner;
+
     constructor() {
         agentName = "Mocky AI";
         specialization = "Blockchain Intelligence";
         description = "An AI Agent built on Base.";
+
+        owner = msg.sender;
+    }
+
+    function getAgentInfo()
+        public
+        view
+        returns (
+            string memory,
+            string memory,
+            string memory
+        )
+    {
+        return (
+            agentName,
+            specialization,
+            description
+        );
     }
 }
