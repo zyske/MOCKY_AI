@@ -63,3 +63,8 @@ Base
 - Token Integration
 - Marketplace Integration
 - Agent Economy
+
+### Documentation
+- docs/DEPLOYMENT.md
+- docs/architecture.md
+- docs/roadmap.md
