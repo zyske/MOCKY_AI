@@ -32,4 +32,15 @@ contract MockyAI {
             description
         );
     }
+function updateAgentProfile(
+    string memory _name,
+    string memory _specialization,
+    string memory _description
+) public {
+    require(msg.sender == owner, "Only owner");
+
+    agentName = _name;
+    specialization = _specialization;
+    description = _description;
+}
 }
